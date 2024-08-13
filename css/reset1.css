@@ -1,0 +1,116 @@
+/* Reset CSS */
+body, h1, h2, p, ul, li, a, hr {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+body {
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Navigation Menu */
+nav#menu {
+    margin-bottom: 20px;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav#menu ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav#menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007BFF;
+    padding: 5px 10px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav#menu ul li a:hover {
+    background: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Horizontal Line Separator */
+hr {
+    border: 0;
+    height: 1px;
+    background: #007BFF;
+    margin: 20px 0;
+}
+
+/* Blog Posts */
+#blog-posts {
+    padding: 20px;
+}
+
+#blog-posts article {
+    margin-bottom: 20px;
+}
+
+#blog-posts article h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#blog-posts article p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+#blog-posts article a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#blog-posts article a:hover {
+    color: #0056b3;
+}
+
+/* Blog Post Content */
+#blog-content {
+    padding: 20px;
+}
+
+#blog-content p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+}
